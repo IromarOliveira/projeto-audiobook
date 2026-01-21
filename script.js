@@ -43,6 +43,7 @@ function mudarCapitulo() {
     // Atualiza a fonte do áudio (isso dispara o evento 'loadeddata')
     audio.src = "audios/" + capitulo + ".mp3";
     nomeCapitulo.innerText = "Capítulo " + capitulo;
+    console.log("Caminho atual do áudio:", audio.src);
 }
 
 // =======================================================
