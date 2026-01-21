@@ -41,7 +41,7 @@ function tocarOuPausarFaixa() {
 // Função auxiliar para atualizar a fonte do áudio e o texto do capítulo
 function mudarCapitulo() {
     // Atualiza a fonte do áudio (isso dispara o evento 'loadeddata')
-    audio.src = "./audios/" + capitulo + ".mp3";
+    audio.src = "audios/" + capitulo + ".mp3";
     nomeCapitulo.innerText = "Capítulo " + capitulo;
 }
 
